@@ -15,3 +15,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # 替换主题为luci-theme-argon
 rm -rf package/lean/luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+# 新增插件
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
