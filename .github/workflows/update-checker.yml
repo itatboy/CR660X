@@ -18,7 +18,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 */18 * * *
+    - cron: 0 0 1,15 * * # 每月1号和15号，0点检查更新（UTC时间，对应东八区时间早上8点） 
 
 jobs:
   check:
