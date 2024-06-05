@@ -16,4 +16,4 @@ rm -rf package/lean/luci-app-argon-config
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 # 广告屏蔽插件
-git clone git@github.com:rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
