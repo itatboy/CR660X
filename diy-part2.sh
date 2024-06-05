@@ -14,3 +14,6 @@ git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git p
 # luci-theme-argon主题管理插件，choose LUCI->Application->Luci-app-argon-config
 rm -rf package/lean/luci-app-argon-config
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+
+# 广告屏蔽插件
+git clone git@github.com:rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
