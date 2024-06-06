@@ -15,8 +15,5 @@ git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git p
 rm -rf package/lean/luci-app-argon-config
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
-# 广告屏蔽插件 adguardhome，choose LUCI->Application->Luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-
 # 动态域名解析插件 DDNS-GO，choose LUCI->Application->luci-app-ddns-go
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
