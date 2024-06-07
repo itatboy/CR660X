@@ -12,7 +12,6 @@ rm -rf package/lean/luci-theme-argon
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 # luci-theme-argon主题管理插件，choose LUCI->Application->Luci-app-argon-config
-rm -rf package/lean/luci-app-argon-config
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
 # 动态域名解析插件 DDNS-GO，choose LUCI->Application->luci-app-ddns-go
